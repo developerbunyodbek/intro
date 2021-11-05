@@ -132,6 +132,7 @@ img {
 .hero-info {
   font-weight: 400;
   line-height: 26px;
+  width: 347px;
   margin: 0;
 }
 
@@ -169,6 +170,7 @@ img {
   padding-right: 22px;
   margin-top: 0;
   margin-bottom: 80px;
+  width: 428px;
 }
 
 .contact-label {
@@ -181,11 +183,16 @@ img {
   border: none;
   background-color: #fff;
   font-size: 16px;
-  font-weight: 400;
-  color: #555;
+  font-weight: 600;
+  color: #000;
   outline: none;
   border-bottom: 1px solid #555;
   padding-bottom: 14px;
+}
+
+.contact-input::placeholder {
+  color: #555;
+  font-weight: 400;
 }
 
 .contact-button {
